@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11A2BDB624D8494BBAB7601C /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4419124775FC437490C2F63E /* MaterialIcons.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		3C47E7745C3A4AAAA896115D /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D66325E67B93405F8F110F5B /* Foundation.ttf */; };
+		5DCA1601BC2C4A739623898A /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E64BEC39F79D43D5947EB765 /* Zocial.ttf */; };
+		737C50240F344BA297C9462D /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 412C608EF9BA465182E12E97 /* Feather.ttf */; };
+		8F010D17E1FD1704401BBF87 /* libPods-OfficeX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF46B9DF5F3D3E44C8F254B3 /* libPods-OfficeX.a */; };
+		93844B4E71984C669472C454 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 398B790CD9104E0BAB216C58 /* SimpleLineIcons.ttf */; };
+		A05ACA442685480DB5E892E1 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E409F793B6C0492A9ABE5673 /* EvilIcons.ttf */; };
+		A19752C7AA9C4BD498A26173 /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A54A026421F4EFC893EF92E /* Roboto_medium.ttf */; };
+		A2E393EF59994FFC9CE9CECA /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93561B49E4AA430F8C1856E5 /* FontAwesome5_Solid.ttf */; };
+		A55EF50823024A67A2B29B45 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4913AB6F421B4091809221C9 /* FontAwesome5_Brands.ttf */; };
+		A7272C4D11134966A1E3BCF3 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA878B07E76A44A2A0B3CA8F /* rubicon-icon-font.ttf */; };
+		ACF56485389B4964B25100E9 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8401AF239234D008C237AA6 /* Octicons.ttf */; };
+		B17C7261A04F4A5DBC72DD33 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B2B709346AC456A9A421285 /* Ionicons.ttf */; };
+		BA58C446CB0B45DD9B672A46 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10F98C6335D9407783A411F6 /* Roboto.ttf */; };
+		C0EF73B27A274760BCDF16A4 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AAE2CEF5BD3410DABFA32AE /* MaterialCommunityIcons.ttf */; };
+		C76DA57E6C8947E18CD9FFB3 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B69F6549E9BC4BBF8F157F35 /* Fontisto.ttf */; };
+		CAE0A3427E2B4A6B8A6DAB3D /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69C0E0B5F2994F108097C73A /* AntDesign.ttf */; };
+		D1F3E0AEE5E943B1A36F7411 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8089A9F0E46D4D85874072B2 /* FontAwesome.ttf */; };
+		DB0078EFB7144C03B6E3B73F /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5E52A67DC41430F9D9C9680 /* FontAwesome5_Regular.ttf */; };
+		EA3766331B68477B91187724 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E37C249C2F794B16AF4B4C8F /* Entypo.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		007BE0C224191BECA22BCB11 /* libPods-OfficeXTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OfficeXTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* OfficeXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfficeXTests.m; sourceTree = "<group>"; };
+		0EE5C3A0CA0A8B6668023931 /* Pods-OfficeX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfficeX.debug.xcconfig"; path = "Target Support Files/Pods-OfficeX/Pods-OfficeX.debug.xcconfig"; sourceTree = "<group>"; };
+		10F98C6335D9407783A411F6 /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* OfficeX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfficeX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = OfficeX/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = OfficeX/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = OfficeX/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = OfficeX/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = OfficeX/main.m; sourceTree = "<group>"; };
+		2A54A026421F4EFC893EF92E /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+		2AAE2CEF5BD3410DABFA32AE /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		2E2A31B37ABF05E7EBDD9EAC /* Pods-OfficeX-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfficeX-tvOS.release.xcconfig"; path = "Target Support Files/Pods-OfficeX-tvOS/Pods-OfficeX-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		398B790CD9104E0BAB216C58 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		3A256033B6EB6C9896B2FBA3 /* Pods-OfficeX-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfficeX-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-OfficeX-tvOSTests/Pods-OfficeX-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		412C608EF9BA465182E12E97 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		4419124775FC437490C2F63E /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		4913AB6F421B4091809221C9 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		674EF99FB4F1F516FE15E89A /* Pods-OfficeX-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfficeX-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-OfficeX-tvOS/Pods-OfficeX-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		69C0E0B5F2994F108097C73A /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		6B2B709346AC456A9A421285 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		7F93A6CBAA9A2AE4DC88C1E7 /* Pods-OfficeXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfficeXTests.release.xcconfig"; path = "Target Support Files/Pods-OfficeXTests/Pods-OfficeXTests.release.xcconfig"; sourceTree = "<group>"; };
+		8089A9F0E46D4D85874072B2 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		8D29A5C20399F721DBE7A682 /* Pods-OfficeX-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfficeX-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-OfficeX-tvOSTests/Pods-OfficeX-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		93561B49E4AA430F8C1856E5 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		AA45D05BB44D56634142479F /* libPods-OfficeX-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OfficeX-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF46B9DF5F3D3E44C8F254B3 /* libPods-OfficeX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OfficeX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B074A65AA66AA73686C4CACA /* Pods-OfficeX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfficeX.release.xcconfig"; path = "Target Support Files/Pods-OfficeX/Pods-OfficeX.release.xcconfig"; sourceTree = "<group>"; };
+		B69F6549E9BC4BBF8F157F35 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		B8401AF239234D008C237AA6 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		C3492C05BB25E72EC9824342 /* libPods-OfficeX-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OfficeX-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E52A67DC41430F9D9C9680 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		D66325E67B93405F8F110F5B /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		D9F6600687709FC825892FC3 /* Pods-OfficeXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfficeXTests.debug.xcconfig"; path = "Target Support Files/Pods-OfficeXTests/Pods-OfficeXTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E37C249C2F794B16AF4B4C8F /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		E409F793B6C0492A9ABE5673 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		E64BEC39F79D43D5947EB765 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		EA878B07E76A44A2A0B3CA8F /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F010D17E1FD1704401BBF87 /* libPods-OfficeX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* OfficeXTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* OfficeXTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = OfficeXTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11E89FBC8013A63165434AA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EE5C3A0CA0A8B6668023931 /* Pods-OfficeX.debug.xcconfig */,
+				B074A65AA66AA73686C4CACA /* Pods-OfficeX.release.xcconfig */,
+				674EF99FB4F1F516FE15E89A /* Pods-OfficeX-tvOS.debug.xcconfig */,
+				2E2A31B37ABF05E7EBDD9EAC /* Pods-OfficeX-tvOS.release.xcconfig */,
+				8D29A5C20399F721DBE7A682 /* Pods-OfficeX-tvOSTests.debug.xcconfig */,
+				3A256033B6EB6C9896B2FBA3 /* Pods-OfficeX-tvOSTests.release.xcconfig */,
+				D9F6600687709FC825892FC3 /* Pods-OfficeXTests.debug.xcconfig */,
+				7F93A6CBAA9A2AE4DC88C1E7 /* Pods-OfficeXTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* OfficeX */ = {
+			isa = PBXGroup;
+			children = (
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = OfficeX;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				AF46B9DF5F3D3E44C8F254B3 /* libPods-OfficeX.a */,
+				C3492C05BB25E72EC9824342 /* libPods-OfficeX-tvOS.a */,
+				AA45D05BB44D56634142479F /* libPods-OfficeX-tvOSTests.a */,
+				007BE0C224191BECA22BCB11 /* libPods-OfficeXTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FD16CF58BC6474ABF5092A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				69C0E0B5F2994F108097C73A /* AntDesign.ttf */,
+				E37C249C2F794B16AF4B4C8F /* Entypo.ttf */,
+				E409F793B6C0492A9ABE5673 /* EvilIcons.ttf */,
+				412C608EF9BA465182E12E97 /* Feather.ttf */,
+				8089A9F0E46D4D85874072B2 /* FontAwesome.ttf */,
+				4913AB6F421B4091809221C9 /* FontAwesome5_Brands.ttf */,
+				D5E52A67DC41430F9D9C9680 /* FontAwesome5_Regular.ttf */,
+				93561B49E4AA430F8C1856E5 /* FontAwesome5_Solid.ttf */,
+				D66325E67B93405F8F110F5B /* Foundation.ttf */,
+				6B2B709346AC456A9A421285 /* Ionicons.ttf */,
+				2AAE2CEF5BD3410DABFA32AE /* MaterialCommunityIcons.ttf */,
+				4419124775FC437490C2F63E /* MaterialIcons.ttf */,
+				B8401AF239234D008C237AA6 /* Octicons.ttf */,
+				2A54A026421F4EFC893EF92E /* Roboto_medium.ttf */,
+				10F98C6335D9407783A411F6 /* Roboto.ttf */,
+				EA878B07E76A44A2A0B3CA8F /* rubicon-icon-font.ttf */,
+				398B790CD9104E0BAB216C58 /* SimpleLineIcons.ttf */,
+				E64BEC39F79D43D5947EB765 /* Zocial.ttf */,
+				B69F6549E9BC4BBF8F157F35 /* Fontisto.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* OfficeX */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* OfficeXTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				11E89FBC8013A63165434AA5 /* Pods */,
+				3FD16CF58BC6474ABF5092A3 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* OfficeX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* OfficeX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "OfficeX" */;
+			buildPhases = (
+				D45C677FCAD5B3B41EB11709 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				7592006F1E98246615E746B6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OfficeX;
+			productName = OfficeX;
+			productReference = 13B07F961A680F5B00A75B9A /* OfficeX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 940;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "OfficeX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* OfficeX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				CAE0A3427E2B4A6B8A6DAB3D /* AntDesign.ttf in Resources */,
+				EA3766331B68477B91187724 /* Entypo.ttf in Resources */,
+				A05ACA442685480DB5E892E1 /* EvilIcons.ttf in Resources */,
+				737C50240F344BA297C9462D /* Feather.ttf in Resources */,
+				D1F3E0AEE5E943B1A36F7411 /* FontAwesome.ttf in Resources */,
+				A55EF50823024A67A2B29B45 /* FontAwesome5_Brands.ttf in Resources */,
+				DB0078EFB7144C03B6E3B73F /* FontAwesome5_Regular.ttf in Resources */,
+				A2E393EF59994FFC9CE9CECA /* FontAwesome5_Solid.ttf in Resources */,
+				3C47E7745C3A4AAAA896115D /* Foundation.ttf in Resources */,
+				B17C7261A04F4A5DBC72DD33 /* Ionicons.ttf in Resources */,
+				C0EF73B27A274760BCDF16A4 /* MaterialCommunityIcons.ttf in Resources */,
+				11A2BDB624D8494BBAB7601C /* MaterialIcons.ttf in Resources */,
+				ACF56485389B4964B25100E9 /* Octicons.ttf in Resources */,
+				A19752C7AA9C4BD498A26173 /* Roboto_medium.ttf in Resources */,
+				BA58C446CB0B45DD9B672A46 /* Roboto.ttf in Resources */,
+				A7272C4D11134966A1E3BCF3 /* rubicon-icon-font.ttf in Resources */,
+				93844B4E71984C669472C454 /* SimpleLineIcons.ttf in Resources */,
+				5DCA1601BC2C4A739623898A /* Zocial.ttf in Resources */,
+				C76DA57E6C8947E18CD9FFB3 /* Fontisto.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		7592006F1E98246615E746B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OfficeX/Pods-OfficeX-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OfficeX/Pods-OfficeX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D45C677FCAD5B3B41EB11709 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OfficeX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = OfficeX;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EE5C3A0CA0A8B6668023931 /* Pods-OfficeX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = OfficeX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactnative.test;
+				PRODUCT_NAME = OfficeX;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B074A65AA66AA73686C4CACA /* Pods-OfficeX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = OfficeX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactnative.test;
+				PRODUCT_NAME = OfficeX;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "OfficeX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "OfficeX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

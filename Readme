@@ -1,0 +1,63 @@
+Project Name : React Native Test Project
+Date: 21 march 2020
+
+Developer : Nikhil Prajapati (9998462952)
+Mail :mca.nikhilprajapati@gmail.com
+
+React Native Development Test
+
+Develop a sample app using the latest react native version. After you have completed it, please upload it to your GitHub account and share a link.
+
+Instructions for Sample App:
+Setup a React Native App
+Create Login screen
+Create Register screen
+Once we login/register, user should be able navigate to plain dashboard screen with 4 sample tabs at the bottom
+Should have logout button
+Use redux & local storage to store data when user login/register.
+
+Bonus Points:
+Use Typescript
+Use of redux persist
+Create basic native ios and native android module that does below things
+Bridge with react native and communicate with js code
+Shows toast message when you click button in jsx code
+
+Assessment:
+We will be checking for following:
+Coding techniques, use of navigation, use of redux, Frontend design approach, approach to create reusable components and basic code indentation and formatting.
+
+
+
+Project Contain below screens:
+    -Splash Screen
+    -Login
+    -Register
+    -Dashboard Tab
+
+in app user can register and login ,once user login basic details like fisrtname and user will be display to dashboard home tab
+
+************************************
+        step to run project
+************************************
+
+get clone
+
+go to RNBoilerplate
+
+npm install
+then cd ios  and type pod install
+
+follow this simple step and run project successfully.
+
+
+thanks
+
+feel free to aks
+
+
+
+
+
+
+
